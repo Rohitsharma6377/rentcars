@@ -1,4 +1,3 @@
-import { useState } from 'react';
 // import './App.css';
 import Navbar from './components/Navbar';
 // import TopSection from './components/TopSection';
@@ -7,18 +6,18 @@ import Navbar from './components/Navbar';
 // import Features from './components/Features';
 // import Testimonials from './components/Testimonials';
 import BottomBanner from './components/BottomBanner';
+import Fleets from './components/Fleets';
 // import Footer from './components/Footer';
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
    <>
-    <Navbar/>
+    {/* <Navbar/> */}
     {/* <TopSection/> */}
     {/* <Reservation/> */}
-    {/* <Fleets/> */}
+    <Fleets/>
     {/* <Features/> */}
     {/* <Testimonials/> */}
     <BottomBanner/>
@@ -28,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
