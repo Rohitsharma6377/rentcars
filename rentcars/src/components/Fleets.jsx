@@ -63,7 +63,7 @@ const Fleets = () => {
           </div>
           <div className="detail">
             <span>mileage</span>
-            <span>{car.mileage +'/L'||12-14/L}</span>
+            <span>{car.mileage +'/L'||12-14}</span>
           </div>
           <div className="detail">
             <span>Type</span>
