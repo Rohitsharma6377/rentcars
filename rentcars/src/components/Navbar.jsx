@@ -1,5 +1,4 @@
 import { useRef } from "react"
-import { Link } from "react-router-dom"
 
 const Navbar = () => {
    const burgerRef = useRef(null)
@@ -31,7 +30,6 @@ const Navbar = () => {
         <li><a href="#fleet">Fleet</a></li>
         <li><a href="#reservation">Reservations</a></li>
         <li><a href="#testimonial">Testimonial</a></li>
-        <li><Link to={'/contact'}>Contact</Link></li>
         <li><a href="#">About Us</a></li>
     </ul>
 
