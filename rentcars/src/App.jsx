@@ -1,13 +1,13 @@
-// import './App.css';
+import "../src/App.css"
 import Navbar from './components/Navbar';
-// import TopSection from './components/TopSection';
-// import Reservation from './components/Reservation';
-// import Fleets from './components/Fleets';
-// import Features from './components/Features';
-// import Testimonials from './components/Testimonials';
-import BottomBanner from './components/BottomBanner';
+import TopSection from './components/TopSection';
+import Reservation from './components/Reservation';
 import Fleets from './components/Fleets';
-// import Footer from './components/Footer';
+import Features from './components/Features';
+import Testimonials from './components/Testimonials';
+import BottomBanner from './components/BottomBanner';
+
+import Footer from './components/Footer';
 
 
 function App() {
@@ -15,13 +15,13 @@ function App() {
   return (
    <>
     <Navbar/>
-    {/* <TopSection/> */}
-    {/* <Reservation/> */}
+    <TopSection/>
+    <Reservation/>
     <Fleets/>
-    {/* <Features/> */}
-    {/* <Testimonials/> */}
+    <Features/>
+    <Testimonials/>
     <BottomBanner/>
-    {/* <Footer/> */}
+    <Footer/>
    
    </>
   )

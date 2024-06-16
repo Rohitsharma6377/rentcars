@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 import ClientForm from './ClientForm';
 import carpic from '../assets/assets/swift.png'
 import { fleet } from '../resources';
@@ -24,10 +25,11 @@ import React, {  useEffect, useRef, useState } from 'react';
 
 
   return (
-  <section
-   
-   className="completeForm"
-   ref={completeFormRef}>
+    
+    <section
+    
+    className="completeForm"
+    ref={completeFormRef}>
         <div className="completeTop">
           <h2>complete Form</h2>
           <span onClick={handleExit} >X</span>
@@ -93,6 +95,7 @@ import React, {  useEffect, useRef, useState } from 'react';
         
         <ClientForm  ref={refs} isVisible={isVisible}   setIsVisible={setIsVisible} /> 
       </section>
+   
       );
 });
   
