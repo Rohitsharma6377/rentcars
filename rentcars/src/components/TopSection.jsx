@@ -14,7 +14,9 @@ const TopSection = () => {
                 and the convenience of seamless journeys. Your adventure begins with us ,
                 redefine travel, one ride at a time."</p>
 
-                <button className="reserveButton" >Reserve now</button>
+                <button className="reserveButton"  onClick={( ()=>{
+                  window.location.href = "/reservation"
+                })}>Reserve now</button>
         </div>
    </section>
   )

@@ -18,7 +18,7 @@ const Features = () => {
             </svg>      
           </div>
           <div className="featureText">
-            "Drive with confidence! Our rental fleet undergoes rigorous regular maintenance and thorough inspections to ensure your safety and a smooth, worry-free journey."
+            Drive with confidence! Our rental fleet undergoes rigorous regular maintenance and thorough inspections to ensure your safety and a smooth, worry-free journey
           </div>
         </div>
 
@@ -30,7 +30,7 @@ const Features = () => {
             </svg>     
           </div>
           <div className="featureText">
-            "No hidden charges, just transparent pricing. Enjoy a straightforward rental experience with us!"
+            No hidden charges, just transparent pricing. Enjoy a straightforward rental experience with us!
           </div>
         </div>
 
@@ -42,7 +42,7 @@ const Features = () => {
             </svg>    
           </div>
           <div className="featureText">
-            "Provide round-the-clock customer support to address queries, emergencies, or assistance during the rental period."
+            Provide round-the-clock customer support to address queries, emergencies, or assistance during the rental period
           </div>
         </div>
       </section>

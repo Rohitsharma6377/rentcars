@@ -1,5 +1,6 @@
-
-
+import hero1 from '../assets/assets/hero1.jpg'
+import picu from '../assets/assets/picu.jpg'
+import pic2 from '../assets/assets/pic2.jpg'
 const Testimonials = () => {
   return (
     <>
@@ -13,8 +14,8 @@ const Testimonials = () => {
 
       <section className="testimonial">
         <article className="testiment">
-          <img src="http://source.unsplash.com/1080x980?indian" alt="" />
-          <span>Vishnu Shankar</span>
+          <img src={hero1} alt="" />
+          <span>Rohit Sharma</span>
           <div className="testimonialText">
             <p>Exceptional Service! The seamless booking process and a fleet of well-maintained
               cars made our trip stress-free. Highly recommend! </p>
@@ -28,7 +29,7 @@ const Testimonials = () => {
         </article>
 
         <article className="testiment">
-          <img src="http://source.unsplash.com/1080x980?lady" alt="" />
+          <img src={pic2} alt="" />
           <span>Lucy</span>
           <div className="testimonialText">
             <p>"Exceptional Service! The seamless booking process and a fleet of well-maintained
@@ -43,7 +44,7 @@ const Testimonials = () => {
         </article>
 
         <article className="testiment">
-          <img src="http://source.unsplash.com/1080x980?girl" alt="" />
+          <img src={picu} alt="" />
           <span>Elizabeth</span>
           <div className="testimonialText">
             <p>"Exceptional Service! The seamless booking process and a fleet of well-maintained

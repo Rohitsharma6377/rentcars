@@ -2,7 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF; /* White */
+  background-color: rgb(61,64,64);; /* White */
   color: #808080; /* Silver/Gray */
   
 }
@@ -36,27 +36,27 @@ p{
 }
 
 ::-webkit-scrollbar{
-  width: 15px;
+  width: 5px;
 
 }
 
 ::-webkit-scrollbar-track{
   box-shadow: inset 0 0 5px grey; 
-  border-radius: 7px;
+  border-radius: 2px;
  
 }
 
 ::-webkit-scrollbar-thumb {
   background: #FF4500; 
-  border-radius: 7px;
+  border-radius: 2px;
 }
 
 /* bigscreen navbar */
 @media (min-width:1040px){
   
 nav {
-  background-color: #004080; /* Deep Blue */
-  padding: 7px 10px;
+  background-color: #004080; /* Deep Black */
+  padding: 5px 8px;
   flex-direction: row;
   align-items: baseline;
   justify-content: center;
@@ -108,12 +108,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 10rem;
+  gap: 5rem;
 }
-nav ul{
+nav ul li{
   align-self: right;
   display: flex;
-  gap: 1.5rem;
+  gap: 1.4rem;
   margin: 0;
   padding: 0;
   justify-content: center;
@@ -125,6 +125,7 @@ nav ul{
  a,Link{
   text-decoration: none;
   color: white;
+  gap: 5rem;
   font-family: roboto;
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +158,7 @@ a:hover ,Link:hover{
 nav {
   background-color: #004080; /* Deep Blue */
   padding: 10px ;
+  gap:1.2rem;
   flex-direction: column;
   align-items: baseline;
   justify-content: center;
@@ -166,6 +168,7 @@ nav {
   right: 0;
   z-index: 200;
 }
+
 
 .nav-logo{
   display: flex;
@@ -208,7 +211,7 @@ nav {
   visibility: hidden;
   opacity: 0;
   align-items: center;
-  gap: .5rem;
+  gap: 1.5rem;
   transition: display 3s ease-in-out,visibility 3s ease-in-out ,opacity 3s ease-in-out ;
 }
 .navOpen{
@@ -216,7 +219,7 @@ nav {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  gap: .5rem;
+  gap: 1.5rem;
   opacity: 1;
   visibility: visible;
   animation: fadeInUp .7s ease-in-out;
@@ -253,7 +256,7 @@ nav ul{
   
 }
 
-a{
+Link{
   text-decoration: none;
   color: white;
   font-family: roboto;
@@ -315,7 +318,18 @@ nav {
   padding: 0;
 }
 
-
+nav ul li{
+  align-self: right;
+  display: flex;
+  gap: .5rem;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style: none; 
+  text-decoration: none;
+  color: aliceblue;
+  
+}
 .handburgermenu{
   display: flex;
   cursor: pointer;
@@ -405,12 +419,13 @@ a{
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  background-color: #004080; /* Deep Blue */
+  background-color: #000; /* Deep Blue */
 } 
 
 .topTextSection {
   max-width: 500px;
   text-align: left;
+  background-color: #000; 
 }
 
 
@@ -439,7 +454,7 @@ p {
 
 .reserveButton {
   margin-top: 1rem;
-  background-color: #FF4500; /* Sunset Orange */
+  background-color: rgb(2,0,36); /* Sunset Orange */
   color: #FFFFFF; /* White */
   padding: 10px 20px;
   border: none;
@@ -629,7 +644,7 @@ p {
 }
 
 .reserveButton {
-  background-color: #FF4500; /* Sunset Orange */
+  background-color: rgb(2,0,36); /* Sunset Orange */
   color: #FFFFFF; /* White */
   padding: 10px 20px;
   border: none;
@@ -847,7 +862,7 @@ text-align: center;
 .reservationSection {
   background-color: #FFFFFF; /* White */
   padding: 50px 20px;   
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -929,8 +944,8 @@ text-transform: capitalize;
   color: #FFFFFF; /* White */
   padding: 1rem 2rem;
   border: none;
- width: 45%;
- height: 3rem;
+ width: 65%;
+ height: 4rem;
   margin-top: 1.7rem;
   text-transform: capitalize;
   letter-spacing: 1.5px;
@@ -1509,6 +1524,7 @@ h1{
 @media (min-width:1040px) {
 
 .fleetHead{
+  margin:10px;
   text-align: center;
   color: #FF4500;
   letter-spacing: 1px;
@@ -1585,6 +1601,7 @@ text-align: center;
   align-items: center;
   gap: 1rem;
   width:310px;
+  margin:10px;
   justify-content: center;
 }
 
@@ -1659,6 +1676,7 @@ transition: .3s ease-in-out;
 @media(min-width:761px) and (max-width:1039px){
 
 .fleetHead{
+  margin:10px;
   text-align: center;
   color: #FF4500;
   letter-spacing: 1px;
@@ -1667,7 +1685,7 @@ transition: .3s ease-in-out;
 }
 
 .fleetSubHead{
-
+  margin:10px;
 width: 80%;
 margin-left: 10%;
 text-align: center;
@@ -1735,10 +1753,12 @@ text-align: center;
   align-items: center;
   gap: 1rem;
   width:290px;
+  margin:10px;
   justify-content: center;
 }
 
 .detail  {
+  margin:10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -3139,6 +3159,7 @@ background-color: #D94200;
 /* big for contact */
 @media  (min-width:1040px) {
   .contactContainer{
+    margin-top:40px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -3147,7 +3168,7 @@ background-color: #D94200;
   .contactBanner{
    width: 100%;
    height: 10%;
-   
+   margin:10px;
     background-color: rgb(230, 227, 227);
   }
   .contactBanner>img{
@@ -3318,6 +3339,7 @@ background-color: #D94200;
 /* tablet for contact */
 @media  (min-width:761px) and (max-width:1039px) {
   .contactContainer{
+    margin-top:40px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -3332,7 +3354,7 @@ background-color: #D94200;
   }
   .contactBanner>img{
    width: 100%;
-   height: 20rem;
+    height: 20rem;
    object-fit: cover;
    filter: opacity(.3);
   
@@ -3362,7 +3384,7 @@ background-color: #D94200;
   }
   
   .contactSection{
-    
+    margin:10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -3507,7 +3529,7 @@ background-color: #D94200;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-   
+    margin-top:45px;
   }
   .contactBanner{
    width: 100%;

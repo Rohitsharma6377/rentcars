@@ -1,27 +1,24 @@
+import { Route, Routes } from "react-router-dom";
 import "../src/App.css"
-import Navbar from './components/Navbar';
-import TopSection from './components/TopSection';
-import Reservation from './components/Reservation';
-import Fleets from './components/Fleets';
-import Features from './components/Features';
-import Testimonials from './components/Testimonials';
-import BottomBanner from './components/BottomBanner';
-
-import Footer from './components/Footer';
+import Home from "./pages/Home";
+import Test from "./pages/Test";
+import Fleetspage from "./pages/Fleetspage";
+import Reserve from "./pages/Reserve";
+import Contacts from "./pages/Contacts";
 
 
 function App() {
 
   return (
    <>
-    <Navbar/>
-    <TopSection/>
-    <Reservation/>
-    <Fleets/>
-    <Features/>
-    <Testimonials/>
-    <BottomBanner/>
-    <Footer/>
+    <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/contact" element={<Contacts/>} />
+      <Route path="/testmontial" element={<Test/>}/>
+      <Route path="/fleet" element={<Fleetspage/>} />
+      <Route path="/reservation" element={<Reserve/>} />
+      
+    </Routes>
    
    </>
   )

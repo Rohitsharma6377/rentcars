@@ -74,11 +74,11 @@ const Reservation = () => {
             </label>
             <select id="pickupLocation" name="pickupLocation" >
               <option value="">Select Pick-up location</option>
-              <option value="Palakkad">Palakkad</option>
-              <option value="Kochi">Kochi</option>
-              <option value="Coimbatore">Coimbatore</option>
-              <option value="Bangalore">Bangalore</option>
-              <option value="Trivandrum">Trivandrum</option>
+              <option value="ambiance">Abiance Mall</option>
+              <option value="airport">T-3 Airport</option>
+              <option value="starmall">Star Mall</option>
+              <option value="Delhi">Delhi</option>
+              <option value="iffco chowk">iffco chowk</option>
             </select>
           </div>
 
@@ -91,11 +91,11 @@ const Reservation = () => {
             </label>
             <select id="dropOffLocation" name="dropOffLocation">
               <option value="">Select Drop-off location</option>
-              <option value="Palakkad">Palakkad</option>
-              <option value="Kochi">Kochi</option>
-              <option value="Coimbatore">Coimbatore</option>
-              <option value="Bangalore">Bangalore</option>
-              <option value="Trivandrum">Trivandrum</option>
+              <option value="iffco">Iffco chowk</option>
+              <option value="airport">Airport</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Ambiance Mall">Ambiance Mall</option>
+              <option value="Star Mall">Star Mall</option>
             </select>
           </div>
 

@@ -1,4 +1,5 @@
 import { useRef } from "react"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
    const burgerRef = useRef(null)
@@ -25,12 +26,14 @@ const Navbar = () => {
           </svg>
     </div>
    <div className="nav-right" ref={burgerRef}>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#fleet">Fleet</a></li>
-        <li><a href="#reservation">Reservations</a></li>
-        <li><a href="#testimonial">Testimonial</a></li>
-        <li><a href="#">About Us</a></li>
+    <ul> <li>
+
+        <Link to='/'>Home</Link>
+        <Link to='/contact'>Contact</Link>
+        <Link to='/testmontial'>Testimonial</Link>
+        <Link to='/fleet'>Fleet</Link>
+        <Link to='/reservation'>Reservation</Link>
+    </li>
     </ul>
 
     <div className="user">
