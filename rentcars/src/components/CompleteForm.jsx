@@ -1,3 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 /* eslint-disable react/display-name */
 import ClientForm from './ClientForm';
 import carpic from '../assets/assets/swift.png'

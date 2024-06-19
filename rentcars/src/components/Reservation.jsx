@@ -1,5 +1,5 @@
 import  CompleteForm  from './CompleteForm';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useRef } from 'react';
 
 const Reservation = () => {
